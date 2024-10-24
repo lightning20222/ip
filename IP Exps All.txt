@@ -1,0 +1,1964 @@
+1. To prepare a resume using HTML tags.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume</title>
+    <style>
+        body {
+            background-color: lightskyblue;
+            margin: 0;
+            padding: 0;
+        }
+
+        .resume-wrapper {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            word-wrap: break-word;
+        }
+
+        tr, th {
+            font-size: 18px;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="resume-wrapper">
+    <h1 align="center" style="color:lightskyblue"><font size="+5">P</font>artho <font size="+5">M</font>al</h1>
+    <p style="text-align: center;"><img src="./img.jpg" width="151" height="150"></p>
+    <h5 align="center">parthomal7@gmail.com | <a href="https://github.com/partho-mal" target="_blank">Github</a> | <a href="https://in.linkedin.com/in/partho-mal" target="_blank">LinkedIn</a></h5>
+    <p>
+        <table border="1" cellspacing="0" cellpadding="0">
+            <tr style="background-color:lightskyblue;">
+                <th style="color: white;" align="left">Summary</th>
+            </tr>
+            <tr>
+                <td>I know Programming I guess somewhat like that!</td>
+            </tr>
+        </table>
+    </p>
+    <p>
+        <table></table>
+    </p>
+    <p>
+        <table border="1" cellspacing="0" cellpadding="0">
+            <tr style="background-color:lightskyblue; text-align: left;">
+                <th style="color: white;" colspan="3">Experience</th>
+            </tr>
+            <tr>
+                <th style="width: 33.33%;">Position & Organization</th>
+                <th style="width: 33.33%;">Achievements</th>
+                <th style="width: 33.33%;">Years</th>
+            </tr>
+            <tr>
+                <td><i>Group Leader</i> <br> Google Cloud Study Jam Program</td>
+                <td>Managing 6 people <br> Teamwork</td>
+                <td>Sep'23</td>
+            </tr>
+        </table>
+    </p>
+    <p>
+        <table border="1" cellspacing="0" cellpadding="0">
+            <tr style="background-color:lightskyblue; text-align: left;">
+                <th style="color: white;" colspan="3">Education</th>
+            </tr>
+            <tr>
+                <th style="width: 33.33%;">Qualification</th>
+                <th style="width: 33.33%;">Institution</th>
+                <th style="width: 33.33%;">Years</th>
+            </tr>
+            <tr>
+                <td>Bachelor of Engineering</td>
+                <td>Vasantdada Patil College of Engineering & Visual Arts</td>
+                <td>2022 - 2026</td>
+            </tr>
+            <tr>
+                <td>High School</td>
+                <td>Guru Nanak Khalsa College of Arts, Science & Commerce</td>
+                <td>2020 - 2022</td>
+            </tr>
+            <tr>
+                <td>School</td>
+                <td>C.B.M High School</td>
+                <td>2020 - 2022</td>
+            </tr>
+        </table>
+    </p>
+    <p>
+        <table border="1" cellspacing="0" cellpadding="0">
+            <tr style="background-color:lightskyblue; text-align: left;">
+                <th style="color: white;" colspan="3">Skills</th>
+            </tr>
+            <tr>
+                <th style="width: 33.33%;">Skill</th>
+                <th style="width: 66.67%;">Proficiency Level</th>
+            </tr>
+            <tr>
+                <td>HTML / CSS / Javascript / C++ / Python / Java / NodeJs / React / MySQL / Git</td>
+                <td>Intermediate</td>   
+            </tr>
+            <tr>
+                <td>API software including Postman & Insomnia</td>
+                <td>Intermediate</td>   
+            </tr>
+            <tr>
+                <td>Email campaign software including Sendy, Campaign Commander & Mail Chimp</td>
+                <td>Intermediate</td>   
+            </tr>
+        </table>
+    </p>
+    <p>
+        <table border="1" cellspacing="0" cellpadding="0">
+            <tr style="background-color:lightskyblue; text-align: left;">
+                <th style="color: white;" colspan="3">Projects</th>
+            </tr>
+            <tr>
+                <th style="width: 33.33%;">Project Name</th>
+                <th style="width: 66.67%;">Description</th>
+            </tr>
+            <tr>
+                <td>Attendance Management System <br> October 2023</td>
+                <td>
+                    <ul>
+                        <li>Developed a program for faculty to manage student attendance in Java.</li>
+                        <li>Implemented real-time updates and notifications using the Twilio API.</li>
+                    </ul>
+                </td>   
+            </tr>
+            <tr>
+                <td>Sign Easy - Learn Sign Language <br> January 2024</td>
+                <td>
+                    <ul>
+                        <li>Created a tool to help deaf people learn sign language.</li>
+                        <li>Converts sign videos to text/caption for calls using TensorFlow.</li>
+                    </ul>
+                </td>   
+            </tr>
+        </table>
+    </p>
+</div>
+
+</body>
+</html>
+
+-------------------------------------------------------------------------------------------------------------
+
+2. Design a registration form with newly introduced form tags in HTML5.
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission Form</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        margin: auto;
+        padding: 40px;
+      }
+      .container h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #333333;
+        font-size: 24px;
+      }
+      .form-group {
+        margin-bottom: 25px;
+      }
+      .form-group label {
+        display: block;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #555555;
+      }
+      .form-group input,
+      .form-group select,
+      .form-group textarea {
+        width: 100%;
+        padding: 14px;
+        font-size: 16px;
+        border: 1px solid #dddddd;
+        border-radius: 6px;
+        box-sizing: border-box;
+        background-color: #f9f9f9;
+      }
+      .form-group textarea {
+        min-height: 120px;
+        resize: vertical;
+      }
+      .form-group input[type="file"] {
+        padding: 12px;
+        font-size: 16px;
+      }
+      .form-group input[type="checkbox"] {
+        width: auto;
+        margin-top: 6px;
+        vertical-align: middle;
+      }
+      .form-group input[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 16px 24px;
+        font-size: 18px;
+        border-radius: 6px;
+        width: 100%;
+        transition: background-color 0.3s;
+      }
+      .form-group input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+      .form-group.flex {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+      }
+      .form-group.flex label {
+        margin-right: 10px;
+      }
+      .form-group.flex input,
+      .form-group.flex select {
+        flex: 1;
+      }
+      .form-group.inline {
+        display: flex;
+        align-items: center;
+      }
+      .form-group.inline label {
+        display: inline-block;
+        margin-left: 10px;
+        margin-bottom: 0;
+        font-weight: normal;
+      }
+      @media (max-width: 600px) {
+        .form-group.flex {
+          flex-direction: column;
+          gap: 0;
+        }
+        .form-group.flex input,
+        .form-group.flex select {
+          width: 100%;
+          margin-bottom: 15px;
+        }
+        .form-group.inline {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        .form-group.inline label {
+          margin-left: 0;
+          margin-top: 8px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Admission Form</h2>
+      <form action="#" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group flex">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required />
+          <label for="dob">Date of Birth</label>
+          <input type="date" id="dob" name="dob" required />
+        </div>
+        <div class="form-group">
+          <label for="address">Address</label>
+          <textarea id="address" name="address" required></textarea>
+        </div>
+        <div class="form-group flex">
+          <label for="gender">Gender</label>
+          <select id="gender" name="gender" required>
+            <option value="">Select your gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+          <label for="nationality">Nationality</label>
+          <input type="text" id="nationality" name="nationality" required />
+        </div>
+        <div class="form-group">
+          <label for="idnumber">ID Number</label>
+          <input type="text" id="idnumber" name="idnumber" required />
+        </div>
+        <div class="form-group">
+          <label for="photo">Upload Photo</label>
+          <input type="file" id="photo" name="photo" />
+          <small>Max file size: 5MB</small>
+        </div>
+        <div class="form-group">
+          <label for="documents">Upload Documents (PDF only)</label>
+          <input
+            type="file"
+            id="documents"
+            name="documents[]"
+            multiple
+            accept=".pdf"
+          />
+          <small>Max total size: 10MB</small>
+        </div>
+        <div class="form-group inline">
+          <input type="checkbox" id="terms" name="terms" required />
+          <label for="terms">I accept the terms and conditions</label>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+-------------------------------------------------------------------------------------------------------------------
+
+3. Design a web page using CSS Font and text properties.
+
+blog.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog</title>
+    <link rel="stylesheet" href="styles-blog.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+    </header>
+    <main>
+        <article>
+            <h2>The Journey Begins</h2>
+            <p>Posted on <time datetime="2024-08-04">August 4, 2024</time> by <span class="author">Partho</span></p>
+            <p>Embarking on a journey of self-discovery is both thrilling and challenging. Today marks the beginning of a new chapter in my life. As I write this, I am filled with a sense of excitement and anticipation for the adventures that lie ahead. Through this blog, I aim to share my experiences, insights, and reflections as I navigate through life’s many twists and turns.</p>
+            <p><strong>One of the key lessons I've learned</strong> so far is the importance of embracing change. Life is constantly evolving, and we must adapt to its rhythm. It’s not always easy, but it’s essential for growth and self-improvement. I invite you to join me on this journey and hopefully find inspiration along the way.</p>
+        </article>
+        <article>
+            <h2>Exploring New Horizons</h2>
+            <p>Posted on <time datetime="2024-08-02">August 2, 2024</time> by <span class="author">Partho</span></p>
+            <p>Last weekend, I decided to step out of my comfort zone and try something completely new. I took a solo trip to a nearby mountain range, and the experience was nothing short of transformative. The solitude allowed me to reconnect with myself and appreciate the beauty of nature in its purest form.</p>
+            <p><span class="highlight">During my hike,</span> I encountered various challenges that tested my physical and mental strength. However, each obstacle I overcame made me realize how capable and resilient I am. This trip taught me the value of perseverance and the joy that comes from conquering one’s fears.</p>
+            <p><span class="shadow">As I stood at the summit,</span> looking out over the vast landscape, I felt a profound sense of accomplishment and peace. It reminded me that life’s greatest rewards often come from pushing our boundaries and exploring new horizons.</p>
+        </article>
+    </main>
+    <footer>
+        <p id="footer">&copy; 2024 Partho's Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+Styles-blog.css
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.shadow {
+    text-shadow: 2px 2px 4px #aaa;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#footer {
+    color: white;
+}
+
+--------------------------------------------------------------------------------------------------------------
+
+4. Design a web page with background properties.
+
+game-store.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Your Favorite Game</title>
+    <link rel="stylesheet" href="styles-game-store.css">
+</head>
+<body>
+    <header>
+        <h1>Buy Your Favorite Game</h1>
+    </header>
+    <main>
+        <section class="game background-image" style="background-image: url('./img/zelda.jpg');">
+            <div class="game-details">
+                <h2>The Legend of Zelda: Breath of the Wild</h2>
+                <p>Explore the vast kingdom of Hyrule in this critically acclaimed adventure game. Solve puzzles, defeat enemies, and uncover the secrets of Hyrule.</p>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+        </section>
+        <section class="game background-image" style="background-image: url('./img/cyberpunk.jpg');">
+            <div class="game-details">
+                <h2>Cyberpunk 2077</h2>
+                <p>Immerse yourself in a dystopian future where you play as V, a mercenary outlaw. Explore the open world of Night City and complete various missions.</p>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+        </section>
+        <section class="game background-gradient" style="background-image: url('./img/red.jpg');">
+            <div class="best-sale">Best Sale</div>
+            <div class="game-details">
+                <h2>Red Dead Redemption 2</h2>
+                <p>Experience the epic tale of life in America’s unforgiving heartland. Explore a vast open world with a cast of characters and rich storytelling.</p>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+        </section>
+        <section class="game background-image" style="background-image: url('./img/witcher.jpeg');">
+            <div class="game-details">
+                <h2>The Witcher 3: Wild Hunt</h2>
+                <p>Become a monster slayer for hire and embark on an epic journey to find the child of prophecy in this award-winning open-world RPG.</p>
+                <a href="#" class="buy-now">Buy Now</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Game Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+styles-game-store.css
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.game {
+    margin-bottom: 20px;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+}
+
+.background-image {
+    background-size: cover;
+    background-position: center;
+}
+
+.background-gradient {
+    background: linear-gradient(135deg, #ff6f61 0%, #6b5b95 100%);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.best-sale {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: gold;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+}
+
+.game-details {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.buy-now {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.buy-now:hover {
+    background-color: #e05545;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+----------------------------------------------------------------------------------------------------------------------
+
+5. Write a JavaScript program to calculate the volume of a cylinder. Volume of a cylinder: V = πr 2 h. Define variables and π as constant.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cylinder Volume Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        input {
+            margin: 10px 0;
+            padding: 5px;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cylinder Volume Calculator</h1>
+    <label for="radius">Radius (r):</label>
+    <input type="number" id="radius" placeholder="Enter radius" required><br>
+    
+    <label for="height">Height (h):</label>
+    <input type="number" id="height" placeholder="Enter height" required><br>
+    
+    <button onclick="calculateVolume()">Calculate Volume</button>
+
+    <div id="result"></div>
+
+    <script>
+        const pi = 3.14159;
+
+        const calculateVolume = () => {
+            const radius = parseFloat(document.getElementById('radius').value);
+            const height = parseFloat(document.getElementById('height').value);
+            
+            if (isNaN(radius) || isNaN(height) || radius <= 0 || height <= 0) {
+                document.getElementById('result').innerText = "Please enter valid positive numbers for both radius and height.";
+            } else {
+                const volume = pi * radius ** 2 * height;
+                document.getElementById('result').innerText = `The volume of the cylinder is ${volume.toFixed(2)} cubic units.`;
+            }
+        }
+    </script>
+</body>
+</html>
+
+--------------------------------------------------------------------------------------------------------------------
+
+6. Write a JavaScript program to set the background color and highlight the text of a paragraph with bold.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Color Change</title>
+    <style>
+        #myParagraph {
+            font-size: 16px;
+            padding: 10px;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <p id="myParagraph">This is a sample paragraph to change its background color.</p>
+    
+    <label for="colorPicker">Choose a background color: </label>
+    <input type="color" id="colorPicker">
+    
+    <button onclick="applyColor()">Apply Color</button>
+
+    <script>
+        function applyColor() {
+            const color = document.getElementById('colorPicker').value;
+            const paragraph = document.getElementById('myParagraph');
+            paragraph.style.backgroundColor = color;  // Change background color dynamically
+            paragraph.style.fontWeight = 'bold';      // Keep the text bold
+        }
+    </script>
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------------------
+
+7. Write a JavaScript program to calculate simple interest. Accept principle amount, rate of interest and number of years from the user. Use function and arrow function to calculate interest.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Interest Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        h2 {
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Interest Calculator</h1>
+        <form id="interest-form">
+            <label for="principal">Principal Amount (P):</label>
+            <input type="number" id="principal" required>
+            
+            <label for="rate">Rate of Interest (R):</label>
+            <input type="number" id="rate" required>
+            
+            <label for="years">Number of Years (T):</label>
+            <input type="number" id="years" required>
+            
+            <button type="submit">Calculate Interest</button>
+        </form>
+        
+        <h2 id="result"></h2>
+    </div>
+
+    <script>
+        document.getElementById('interest-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the form from submitting
+
+            const principal = parseFloat(document.getElementById('principal').value);
+            const rate = parseFloat(document.getElementById('rate').value);
+            const years = parseFloat(document.getElementById('years').value);
+
+            // Calculate interest using an arrow function
+            const calculateInterestArrow = (principal, rate, years) => (principal * rate * years) / 100;
+
+            // Get interest from both functions
+            const interestArrow = calculateInterestArrow(principal, rate, years);
+
+            // Display the result
+            document.getElementById('result').textContent = `Simple Interest: ₹${interestArrow.toFixed(2)}`;
+        });
+    </script>
+</body>
+</html>
+
+---------------------------------------------------------------------------------------------------------------------
+
+8. Write a JavaScript program to which will have a Class Person (name, age). Person class will have a method to display the data items of it. Derive a Class Student (name, age, course, marks) from Student. Display the details of 2 students with name and age.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .student-details {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px auto;
+            max-width: 400px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .student-details h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .student-details p {
+            margin: 5px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Student Details</h1>
+
+    <div id="student1" class="student-details"></div>
+    <div id="student2" class="student-details"></div>
+
+    <script>
+        // Define the Person class
+        class Person {
+            constructor(name, age) {
+                this.name = name;
+                this.age = age;
+            }
+
+            // Method to display Person's details
+            getDetails() {
+                return `Name: ${this.name}, Age: ${this.age}`;
+            }
+        }
+
+        // Define the Student class by extending Person
+        class Student extends Person {
+            constructor(name, age, course, marks) {
+                super(name, age);  // Call the parent class constructor
+                this.course = course;
+                this.marks = marks;
+            }
+
+            // Method to display Student's details, including name and age from Person class
+            getDetails() {
+                return `${super.getDetails()}<br>Course: ${this.course}, Marks: ${this.marks}`;
+            }
+        }
+
+        // Create two Student instances
+        const student1 = new Student("Alice", 20, "Computer Science", 85);
+        const student2 = new Student("Bob", 21, "Information Technology", 90);
+
+        // Display details of the two students
+        document.getElementById('student1').innerHTML = `<h2>Student 1</h2><p>${student1.getDetails()}</p>`;
+        document.getElementById('student2').innerHTML = `<h2>Student 2</h2><p>${student2.getDetails()}</p>`;
+    </script>
+
+</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------
+
+9. Write a program to demonstrate promise in JavaScript.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .result {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: none; /* Initially hidden */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>User Data Fetcher</h1>
+        <button id="fetch-button">Fetch User Data</button>
+        <div id="result" class="result"></div>
+    </div>
+    <script>
+        // Function that returns a Promise
+        function fetchUserData() {
+            return new Promise((resolve, reject) => {
+                // Simulate a network delay
+                setTimeout(() => {
+                    // Simulate a successful response
+                    const success = true; // Change this to false to simulate an error
+                    if (success) {
+                        const userData = {
+                            id: 1,
+                            name: "John Doe",
+                            email: "john.doe@example.com"
+                        };
+                        resolve(userData); // Resolve the Promise with user data
+                    } else {
+                        reject("Error: Unable to fetch user data"); // Reject the Promise with an error message
+                    }
+                }, 2000); // 2 seconds delay
+            });
+        }
+
+        // Function to update the UI with fetched data
+        function updateUI(data) {
+            const resultDiv = document.getElementById("result");
+            resultDiv.innerHTML = `
+                <h2>User Data</h2>
+                <p><strong>ID:</strong> ${data.id}</p>
+                <p><strong>Name:</strong> ${data.name}</p>
+                <p><strong>Email:</strong> ${data.email}</p>
+            `;
+            resultDiv.style.display = "block"; // Show the result
+        }
+
+        // Adding event listener to the button
+        document.getElementById("fetch-button").addEventListener("click", () => {
+            const resultDiv = document.getElementById("result");
+            resultDiv.style.display = "none"; // Hide the result before fetching
+            fetchUserData()
+                .then(data => {
+                    updateUI(data); // Update UI with user data
+                })
+                .catch(error => {
+                    resultDiv.innerHTML = `<p>${error}</p>`;
+                    resultDiv.style.display = "block"; // Show the error message
+                });
+        });
+    </script>
+</body>
+</html>
+
+-------------------------------------------------------------------------------------------------------------------
+
+10. Write a program to demonstrates Callback in JavaScript.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callback Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .message {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button onclick="sayHello()">Click Me</button>
+        <div class="message" id="message"></div>
+    </div>
+
+    <script>
+        function sayHello() {
+            const messageDiv = document.getElementById('message');
+            messageDiv.innerHTML = 'Hello!';
+
+            // Call goodbye after a delay of 2 seconds
+            setTimeout(() => {
+                sayGoodbye();
+            }, 2000);
+        }
+
+        function sayGoodbye() {
+            const messageDiv = document.getElementById('message');
+            messageDiv.innerHTML = 'Goodbye!';
+        }
+    </script>
+</body>
+</html>
+
+-----------------------------------------------------------------------------------------------------------------------
+
+11. Write a program to display “Hello World “in React.
+
+`````````````````````````````````````````````````````````
+npx create-react-app hello-world
+cd hello-world
+
+`````````````````````````````````````````````````````````
+// src/App.js
+
+import React from 'react';
+
+function App() {
+  return (
+    <div>
+      <h1>Hello World</h1>
+    </div>
+  );
+}
+
+export default App;
+
+``````````````````````````````````````````````````````````
+
+npm start
+
+-----------------------------------------------------------------------------------------------------------
+
+12. Write a program which demonstrates State and Prop in React.
+
+``````````````````````````````````````````````````````````
+npx create-react-app state-props-demo
+cd state-props-demo
+
+``````````````````````````````````````````````````````````
+// src/App.js
+
+import React, { useState } from 'react';
+
+// ChildComponent receiving props
+const ChildComponent = ({ message, handleChangeMessage }) => {
+  return (
+    <div>
+      <h2>Child Component</h2>
+      <p>Message from Parent: {message}</p>
+      <button onClick={handleChangeMessage}>Change Parent's Message</button>
+    </div>
+  );
+};
+
+// ParentComponent with state
+const ParentComponent = () => {
+  const [message, setMessage] = useState('Hello from the Parent!');
+
+  // Function to change the message in the parent state
+  const changeMessage = () => {
+    setMessage('Message changed by the Child Component!');
+  };
+
+  return (
+    <div>
+      <h1>Parent Component</h1>
+      <p>Current Message: {message}</p>
+      {/* Passing props to the child */}
+      <ChildComponent message={message} handleChangeMessage={changeMessage} />
+    </div>
+  );
+};
+
+export default ParentComponent;
+
+``````````````````````````````````````````````````````````````
+npm start
+
+------------------------------------------------------------------------------------------------------------------
+
+13. Design a registration form using form elements in ReactJS along with appropriate validations.
+
+`````````````````````````````````````````````
+npx create-react-app my-react-app
+cd my-react-app
+
+``````````````````````````````````````````````
+/src
+  ├── /components
+  │    ├── RegistrationForm.jsx
+  │    └── OtherComponent.jsx
+  ├── App.jsx
+  ├── index.js
+  └── styles.css
+
+````````````````````````````````````````````````
+
+RegistrationForm.jsx
+
+import React, { useState } from 'react';
+import './RegistrationForm.css'; // Import the CSS file
+
+const RegistrationForm = () => {
+  const [formData, setFormData] = useState({
+    username: '',
+    email: '',
+    password: '',
+    confirmPassword: '',
+  });
+
+  const [errors, setErrors] = useState({});
+
+  const validate = () => {
+    let tempErrors = {};
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!formData.username) {
+      tempErrors.username = 'Username is required';
+    }
+
+    if (!formData.email) {
+      tempErrors.email = 'Email is required';
+    } else if (!emailRegex.test(formData.email)) {
+      tempErrors.email = 'Email is not valid';
+    }
+
+    if (!formData.password) {
+      tempErrors.password = 'Password is required';
+    } else if (formData.password.length < 6) {
+      tempErrors.password = 'Password must be at least 6 characters long';
+    }
+
+    if (formData.password !== formData.confirmPassword) {
+      tempErrors.confirmPassword = 'Passwords do not match';
+    }
+
+    setErrors(tempErrors);
+    return Object.keys(tempErrors).length === 0;
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (validate()) {
+      console.log('Form submitted successfully', formData);
+      // You can add further actions like sending data to a server here
+    }
+  };
+
+  return (
+    <div className="form-container">
+      <h2>Registration Form</h2>
+      <form onSubmit={handleSubmit}>
+        <div className="form-group">
+          <label>Username:</label>
+          <input
+            type="text"
+            name="username"
+            value={formData.username}
+            onChange={handleChange}
+          />
+          {errors.username && <span className="error">{errors.username}</span>}
+        </div>
+        <div className="form-group">
+          <label>Email:</label>
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+          />
+          {errors.email && <span className="error">{errors.email}</span>}
+        </div>
+        <div className="form-group">
+          <label>Password:</label>
+          <input
+            type="password"
+            name="password"
+            value={formData.password}
+            onChange={handleChange}
+          />
+          {errors.password && <span className="error">{errors.password}</span>}
+        </div>
+        <div className="form-group">
+          <label>Confirm Password:</label>
+          <input
+            type="password"
+            name="confirmPassword"
+            value={formData.confirmPassword}
+            onChange={handleChange}
+          />
+          {errors.confirmPassword && (
+            <span className="error">{errors.confirmPassword}</span>
+          )}
+        </div>
+        <button type="submit" className="submit-button">Register</button>
+      </form>
+    </div>
+  );
+};
+
+export default RegistrationForm;
+
+``````````````````````````````````````````````````````````````````````````````````
+RegistrationForm.css
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='password']:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+
+````````````````````````````````````````````````````````````````````````
+import React from 'react';
+import RegistrationForm from './RegistrationForm';
+
+const App = () => {
+  return (
+    <div>
+      <h1>Welcome to Registration</h1>
+      <RegistrationForm />
+    </div>
+  );
+};
+
+export default App;
+
+```````````````````````````````````````````````````````````````````````
+npm start
+
+---------------------------------------------------------------------------------------------------------------------
+
+14. Write a program which demonstrates React Router and single page applications
+
+npx create-react-app my-react-app
+cd my-react-app
+
+```````````````````````````````````````````````````````````
+npm install react-router-dom
+
+```````````````````````````````````````````````````````````
+mkdir src/pages
+
+```````````````````````````````````````````````````````````
+// src/pages/Home.jsx
+import React from 'react';
+
+const Home = () => {
+  return (
+    <div>
+      <h2>Home Page</h2>
+      <p>Welcome to the Home page!</p>
+    </div>
+  );
+};
+
+export default Home;
+
+`````````````````````````````````````````````````````````````````````````````````````
+
+// src/pages/About.jsx
+import React from 'react';
+
+const About = () => {
+  return (
+    <div>
+      <h2>About Page</h2>
+      <p>This is the About page.</p>
+    </div>
+  );
+};
+
+export default About;
+
+````````````````````````````````````````````````````````````````````````
+
+// src/pages/Contact.jsx
+import React from 'react';
+
+const Contact = () => {
+  return (
+    <div>
+      <h2>Contact Page</h2>
+      <p>This is the Contact page.</p>
+    </div>
+  );
+};
+
+export default Contact;
+
+`````````````````````````````````````````````````````````````````````````
+
+// src/pages/NotFound.jsx
+import React from 'react';
+
+const NotFound = () => {
+  return (
+    <div>
+      <h2>404 Not Found</h2>
+      <p>Sorry, the page you are looking for does not exist.</p>
+    </div>
+  );
+};
+
+export default NotFound;
+
+`````````````````````````````````````````````````````````````````````````````
+
+//Set Up React Router: Open src/App.js and set up routing using react-router-dom
+
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import NotFound from './pages/NotFound';
+import './App.css'; // Optional for styling
+
+const App = () => {
+  return (
+    <Router>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact</Link>
+          </li>
+        </ul>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </Router>
+  );
+};
+
+export default App;
+
+``````````````````````````````````````````````````````````````
+
+//src/App.css
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+```````````````````````````````````````````````````
+npm start
+
+------------------------------------------------------------------------------------------------------------------
+
+15. Write a program which demonstrates Hooks (UseEffect), refs in React JS
+
+npx  create-react-app my-react-app
+cd my-react-app
+`````````````````````````````````````````
+echo. > src/Counter.jsx
+
+````````````````````````````````````````
+//Counter.jsx
+
+import React, { useState, useEffect, useRef } from 'react';
+
+const Counter = () => {
+  const [count, setCount] = useState(0);
+  const inputRef = useRef(null);
+
+  // useEffect to update the document title
+  useEffect(() => {
+    document.title = `Count: ${count}`;
+  }, [count]); // Dependency array - effect runs when count changes
+
+  // Function to increment the counter
+  const increment = () => {
+    setCount((prevCount) => prevCount + 1);
+  };
+
+  // Function to focus the input field
+  const focusInput = () => {
+    inputRef.current.focus();
+  };
+
+  return (
+    <div>
+      <h1>Counter: {count}</h1>
+      <button onClick={increment}>Increment</button>
+      <div>
+        <input
+          ref={inputRef}
+          type="text"
+          placeholder="Type something..."
+        />
+        <button onClick={focusInput}>Focus Input</button>
+      </div>
+    </div>
+  );
+};
+
+export default Counter;
+
+```````````````````````````````````````````````````````````````````
+
+// Update App.js: Open src/App.js and import the Counter component.
+
+import React from 'react';
+import Counter from './Counter';
+
+const App = () => {
+  return (
+    <div>
+      <h1>React Hooks Demo</h1>
+      <Counter />
+    </div>
+  );
+};
+
+export default App;
+
+``````````````````````````````````````````````````````````````````````
+npm start
+
+--------------------------------------------------------------------------------------------------------------------
+
+16. Write a program “Hello World” using http module of Node js. Demonstrate REPL in Node.js 
+
+`````````````````````````````````````````````````
+
+mkdir hello-world-node
+cd hello-world-node
+
+``````````````````````````````````````````````````
+echo. > server.js
+
+``````````````````````````````````````````````````
+// server.js
+const http = require('http');
+
+const hostname = '127.0.0.1'; // Localhost
+const port = 3000; // Port number
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200; // HTTP status code 200 (OK)
+  res.setHeader('Content-Type', 'text/plain'); // Set response header
+  res.end('Hello World\n'); // Send response body
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+
+```````````````````````````````````````````````````````````````````
+cmd:         node server.js
+
+`````````````````````````````````````````````````````````````````````
+cmd:         node
+`````````````````````````````````````````````````````````
+> console.log("Hello from REPL!");
+Hello from REPL!
+undefined
+`````````````````````````````````````````
+> const sum = (a, b) => a + b;
+> sum(5, 10);
+15
+````````````````````````````````````````
+> const greet = name => `Hello, ${name}!`;
+> greet('World');
+'Hello, World!'
+`````````````````````````````````````````
+Create an Array: You can create an array and perform various operations on it:
+
+> const fruits = ['apple', 'banana', 'orange', 'grape'];
+````````````````````````````````````````
+Access Array Elements: Access individual elements:
+> fruits[1]; // Access the second element
+'banana'
+
+``````````````````````````````````````````
+Add an Element: Use push to add a new element to the array:
+
+> fruits.push('kiwi');
+5 // The new length of the array
+
+`````````````````````````````````````````````````````````
+Display the Updated Array: Check the updated array:
+
+> fruits;
+[ 'apple', 'banana', 'orange', 'grape', 'kiwi' ]
+
+``````````````````````````````````````````````````````````
+Remove the Last Element: Use pop to remove the last element:
+
+> fruits.pop();
+'kiwi' // The removed element
+
+```````````````````````````````````````````````````````````
+> fruits;
+[ 'apple', 'banana', 'orange', 'grape' ]
+
+```````````````````````````````````````````````````````
+
+Exit the REPL: To exit the REPL, you can either type .exit or press Ctrl + C twice.
+
+-------------------------------------------------------------------------------------------------------
+
+17. Write a program which will perform following file operations in Node js using file system module.
+i) Create a file
+ii) Write some paragraph into a file.
+
+``````````````````````````````````````
+npm init -y
+
+```````````````````````````````````````
+echo. > app.js
+
+``````````````````````````````````````
+//Open app.js
+// Import the File System module
+
+const fs = require('fs');
+
+// Specify the file name
+const fileName = 'example.txt';
+
+// Create a file and write a paragraph into it
+const paragraph = 'This is an example paragraph that will be written into the file. Node.js provides a simple way to work with the file system, allowing you to create, read, update, and delete files easily.';
+
+// Use fs.writeFile to create the file and write the content
+fs.writeFile(fileName, paragraph, (err) => {
+    if (err) {
+        console.error('Error writing to file:', err);
+    } else {
+        console.log(`File '${fileName}' created and written successfully.`);
+    }
+});
+
+````````````````````````````````````````````````````````````````
+node app.js
+
+-------------------------------------------------------------------------------------------------------------
+
+18. Write a program which will perform following file operations in Node js using file system module.
+i) Append some text to an existing file
+ii) Rename the file.
+
+````````````````````````````````````
+npm init -y
+
+````````````````````````````````````
+echo. > app.js
+
+``````````````````````````````````````
+// Open app.js
+
+// Import the File System module
+const fs = require('fs');
+
+// Specify the original file name and the new file name
+const originalFileName = 'example.txt';
+const newFileName = 'renamed_example.txt';
+
+// Append some text to the existing file
+const textToAppend = '\nThis text has been appended to the file.';
+
+// Append the text to the original file
+fs.appendFile(originalFileName, textToAppend, (err) => {
+    if (err) {
+        console.error('Error appending to file:', err);
+    } else {
+        console.log(`Text appended to '${originalFileName}' successfully.`);
+
+        // Rename the file after appending
+        fs.rename(originalFileName, newFileName, (err) => {
+            if (err) {
+                console.error('Error renaming file:', err);
+            } else {
+                console.log(`File renamed from '${originalFileName}' to '${newFileName}' successfully.`);
+            }
+        });
+    }
+});
+
+```````````````````````````````````````````````````````````````
+
+// Create example.txt in the same directory:
+
+cmd:     echo "This is the original file content." > example.txt
+
+````````````````````````````````````````````````````````````````
+
+cmd:     node app.js
+
+-------------------------------------------------------------------------------------------------------------
+
+19. Write a program which will demonstrate the buffers in Node js.
+
+```````````````````````
+npm init -y
+
+````````````````````````
+echo. > app.js
+
+```````````````````````
+//app.js
+
+// Import the Buffer module (part of the global scope in Node.js)
+const buffer = require('buffer');
+
+// Demonstrating creating a buffer from a string
+const str = 'Hello, Node.js Buffers!';
+const bufferFromString = Buffer.from(str);
+console.log('Buffer from string:', bufferFromString);
+
+// Display the content of the buffer
+console.log('Buffer content as string:', bufferFromString.toString());
+
+// Demonstrating creating a buffer with a specific size
+const size = 10;
+const bufferWithSize = Buffer.alloc(size);
+console.log('Buffer with size 10:', bufferWithSize);
+
+// Fill the buffer with a specific value
+bufferWithSize.fill('A');
+console.log('Filled buffer:', bufferWithSize);
+
+// Creating a buffer from an array of bytes
+const byteArray = [72, 101, 108, 108, 111];
+const bufferFromArray = Buffer.from(byteArray);
+console.log('Buffer from byte array:', bufferFromArray);
+console.log('Buffer content as string from byte array:', bufferFromArray.toString());
+
+// Slicing a buffer
+const slicedBuffer = bufferFromString.slice(0, 5);
+console.log('Sliced buffer:', slicedBuffer.toString());
+
+// Copying a buffer
+const targetBuffer = Buffer.alloc(5);
+bufferFromString.copy(targetBuffer, 0, 0, 5);
+console.log('Copied buffer:', targetBuffer.toString());
+
+```````````````````````````````````````````````````````````
+
+node app.js
+
+-------------------------------------------------------------------------------------------------------------
+
+20. Write a program which demonstrates asynchronous programming using Node.js
+
+npm init -y
+
+echo. > app.js
+
+`````````````````````````
+//app.js
+
+const fs = require('fs');
+
+// Asynchronous function using callbacks
+function readFileWithCallback() {
+    fs.readFile('example.txt', 'utf-8', (err, data) => {
+        if (err) {
+            console.error('Error reading file with callback:', err);
+            return;
+        }
+        console.log('Data read using callback:', data);
+    });
+}
+
+// Asynchronous function using promises
+function readFileWithPromise() {
+    return new Promise((resolve, reject) => {
+        fs.readFile('example.txt', 'utf-8', (err, data) => {
+            if (err) {
+                reject(err);
+            } else {
+                resolve(data);
+            }
+        });
+    });
+}
+
+// Asynchronous function using async/await
+async function readFileWithAsyncAwait() {
+    try {
+        const data = await readFileWithPromise();
+        console.log('Data read using async/await:', data);
+    } catch (err) {
+        console.error('Error reading file with async/await:', err);
+    }
+}
+
+// Main function to demonstrate asynchronous operations
+async function main() {
+    // Create a sample file to read
+    fs.writeFileSync('example.txt', 'Hello, this is a sample text for asynchronous programming demonstration.');
+
+    // Using callback
+    readFileWithCallback();
+
+    // Using promises
+    try {
+        const data = await readFileWithPromise();
+        console.log('Data read using promises:', data);
+    } catch (err) {
+        console.error('Error reading file with promises:', err);
+    }
+
+    // Using async/await
+    await readFileWithAsyncAwait();
+}
+
+// Run the main function
+main();
+
+`````````````````````````````````````````````````````
+node app.js
+
+-----------------------------------------------------------------------------------------------------------
+
+21. Write a program to display “Hello World” using Express JS.
+
+npm init -y
+
+npm install express
+
+echo. > app.js
+
+``````````````````````````````````````````````````````
+//app.js
+
+// Import the express module
+const express = require('express');
+
+// Create an instance of an Express application
+const app = express();
+
+// Define a route that responds with "Hello World"
+app.get('/', (req, res) => {
+    res.send('Hello World');
+});
+
+// Set the port number
+const PORT = 3000;
+
+// Start the server
+app.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
+});
+
+```````````````````````````````````````````
+
+node app.js
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
